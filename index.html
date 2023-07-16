@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/PageStyle.css">
+    <!--<script src="./Scripts/ColorFight.js"></script>-->
+    <!--Link all js files-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="./Scripts/Main.js"></script>
+    <script src="./Scripts/SnakeGame.js"></script>
+</head>
+
+<body>
+    <div id="overlay">
+        
+        <p>
+            <span class="material-symbols-rounded">warning</span>
+            The window isn't wide enough to properly display. please try resizing.
+            <span class="material-symbols-rounded">warning</span>
+        </p>
+            
+    </div>
+    <div id="body">
+        <div id="Header">
+            <h1>Snake</h1>
+            <h3 id="Scoreboard">By Holden</h3>
+            <button onclick="gotoOptions()"><span class="material-symbols-rounded">
+                    settings
+                </span></button>
+        </div>
+        <div id="SnakeContainer">
+            <p id="tip">Click the canvas to start!</p>
+            <canvas width="500" height="500" id="game" onclick="startSnake()"></canvas>
+        </div>
+        <div id="Footer">
+            <h6>This footer was intentionally left blank.</h6>
+        </div>
+    </div>
+</body>
+
+</html>

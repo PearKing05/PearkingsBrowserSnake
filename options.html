@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Options</title>
+    <link rel="stylesheet" href="./Styles/PageStyle.css">
+    <script src="./Scripts/ColorFight.js"></script>
+    <script src="./Scripts/Main.js"></script>
+</head>
+
+<body onload="window.alert('Press CTRL+A for a secret message to appear')">
+    <form action="index.html">
+        <label for="speed">Speed:</label>
+        <input type="number" id="speed" name="speed" min="5" max="30" value="5" required><br><br>
+
+        <label for="framerate">Display framerate:</label>
+        <input type="number" id="framerate" name="framerate" min="1" max="240" value="60" required><br><br>
+
+        <label for="game-size">Game Size:</label>
+        <select id="game-size" name="game-size">
+            <option value="50">10x10</option>
+            <option value="25">20x20</option>
+            <option value="20">25x25</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <p style="color: white;">I'll change the css for this page later if I have time, and patience for it</p>
+
+</body>
+
+</html>
